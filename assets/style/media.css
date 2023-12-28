@@ -1,0 +1,25 @@
+/* медиа запрос */
+@media (max-width: 1200px){
+    .hero__title{
+        font-size: 50px;
+    }
+}
+
+@media (max-width: 768px){
+    .hero__title{
+        font-size: 35px;
+        line-height: 42px;
+    }
+
+    .hero__subtitle{
+        font-size: 14px;
+    }
+
+    .burger{
+        display: block;
+    }
+
+    .header__menu{
+        display: none;
+    }
+}
